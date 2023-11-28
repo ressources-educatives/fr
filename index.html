@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sélection de Classe</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h3>Si notre site vous a été utile partagez-le !</h3>
+
+            <button onclick="fermerPopup()">Je souhaite continuer sans partager</button>
+            <button onclick="copieEtFermer()">Partager</button>
+
+        </div>
+        <script>
+            function afficherPopup() {
+                document.getElementById("popup").style.display = "flex";
+            }
+    
+            function fermerPopup() {
+                document.getElementById("popup").style.display = "none";
+            }
+
+            function copieEtFermer() {
+                alert('Lien de partage : https://ressources-educatives.fr');
+                document.getElementById("popup").style.display = "none";
+            
+            }
+            window.onload = afficherPopup;
+        </script>
+    </div>
+    <h1>Sélection de classe :</h1>
+    <h2>Primaire :</h2>
+    <ul>
+        <div class="new-button">
+            <a class="new-buttons" href="primaire/CM1/index.html" target="_blank">CM1</a>
+        </div>
+        <div class="new-button">
+            <a class="new-buttons" href="primaire/CM1/index.html" target="_blank">CM2</a>
+        </div>
+    </ul>
+    <h2>Collège :</h2>
+    <ul>
+        <div class="new-button">
+            <a class="new-buttons" href="college/6E/index.html" target="_blank">6E</a>
+        </div>
+        <div class="new-button">
+            <a class="new-buttons" href="college/5E/index.html" target="_blank">5E</a>
+        </div>
+        <div class="new-button">
+            <a class="new-buttons" href="college/4E/index.html" target="_blank">4E</a>
+        </div>
+        <div class="new-button">
+            <a class="new-buttons" href="college/3E/index.html" target="_blank">3E</a>
+        </div>
+    </ul>
+    <h1>Notre partenaire, le serveur Discord COLI</h1> 
+    <ul>
+        <div class="new-button">
+            <a class="new-buttons" href="https://discord.gg/z3vZPXmQzm" target="_blank">Rejoindre</a>
+        </div>
+    </ul>
+    <iframe src="https://discord.com/widget?id=967830252472664124&theme=light" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+</body>
+</html>
