@@ -14,7 +14,12 @@
 <meta property="og:description" content="Qui a dit qu'apprendre était fatigant?">
 <meta property="og:image" content="https://ressources-educatives.github.io/fr/K.png">
 <meta property="og:url" content="https://ressources-educatives.github.io/fr">
-<body> 
+<body>
+<ul>
+    <div class="new-button">
+        <a class="new-buttons" href="index.html" target="_blank">Acceuil</a>
+    </div>
+</ul>
 <h1>
 Politique de confidentialité
 
