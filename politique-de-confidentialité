@@ -1,4 +1,21 @@
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sélection de Classe</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="image/vnd.icon" href="K.ico">   
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<meta property="og:title" content="Ressources Éducatives">
+<meta property="og:description" content="Qui a dit qu'apprendre était fatigant?">
+<meta property="og:image" content="https://ressources-educatives.github.io/fr/K.png">
+<meta property="og:url" content="https://ressources-educatives.github.io/fr">
+<body> 
+<h1>
 Politique de confidentialité
 
 Dernière mise à jour : [Date]
@@ -34,4 +51,5 @@ En utilisant notre site, vous consentez à notre politique de confidentialité.
 Pour toute question concernant cette politique de confidentialité, veuillez nous contacter à [adresse e-mail de contact].
 
 Merci de faire confiance à [Nom du Site].
-
+</h1>
+</body>
